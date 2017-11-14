@@ -33,7 +33,6 @@ public class MahasiswaKontroler {
 
         while (hasil.next()) {
             Mahasiswa m = new Mahasiswa();
-
             m.setNim(hasil.getString(1));
             m.setNama(hasil.getString(2));
             m.setJurusan(hasil.getString(3));

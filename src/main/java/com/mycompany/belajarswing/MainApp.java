@@ -75,11 +75,13 @@ public class MainApp extends javax.swing.JFrame {
 
         jLabel3.setText("JURUSAN");
 
-        txtnim.setText("jTextField1");
+        txtnama.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtnamaActionPerformed(evt);
+            }
+        });
 
-        txtnama.setText("jTextField2");
-
-        txtjurusan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SI", "EF", "MI", "EL" }));
+        txtjurusan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ap", "Si", "Ak", " " }));
 
         btnsimpan.setText("SIMPAN");
         btnsimpan.addActionListener(new java.awt.event.ActionListener() {
@@ -190,6 +192,10 @@ public class MainApp extends javax.swing.JFrame {
         tampilkeJTable();
 
     }//GEN-LAST:event_btnsimpanActionPerformed
+
+    private void txtnamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnamaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtnamaActionPerformed
 
     private void kosong(){
         txtnim.setText("");

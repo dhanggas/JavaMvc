@@ -122,23 +122,20 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtnim">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField1"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtnama">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField2"/>
-          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtnamaActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JComboBox" name="txtjurusan">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="4">
-                <StringItem index="0" value="SI"/>
-                <StringItem index="1" value="EF"/>
-                <StringItem index="2" value="MI"/>
-                <StringItem index="3" value="EL"/>
+                <StringItem index="0" value="Ap"/>
+                <StringItem index="1" value="Si"/>
+                <StringItem index="2" value="Ak"/>
+                <StringItem index="3" value=" "/>
               </StringArray>
             </Property>
           </Properties>
